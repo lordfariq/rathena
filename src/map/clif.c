@@ -683,8 +683,11 @@ void clif_authok(struct map_session_data *sd)
 	const int cmd = 0x73;
 #elif PACKETVER < 20141022
 	const int cmd = 0x2eb;
+#elif PACKETVER == 20161228
+	const int cmd = 0x2eb;
 #else
 	const int cmd = 0xa18;
+	
 #endif
 	int fd = sd->fd;
 
