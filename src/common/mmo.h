@@ -22,7 +22,7 @@
 
 #ifndef PACKETVER
 	#define PACKETVER 20161228
-	//#define PACKETVER 20161228
+	//#define PACKETVER 20120410
 #endif
 
 // Check if the specified packetversion supports the pincode system
